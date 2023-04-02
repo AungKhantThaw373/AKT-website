@@ -1,0 +1,28 @@
+
+.sidebar{
+  display:flex;
+  flex-direction:column;
+  background-color:white;
+  position:fixed;
+  left:0;
+  bottom:0;
+  top:55px;
+  width:72px;
+  z-index:200;
+}
+.homediv,.explorediv,.subsdiv,.orgdiv,.musicdiv,.librarydiv{
+  flex:1;
+  height:74px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+}
+.homeicon,.exploreicon,.subsicon,.orgicon,.musicicon,.libraryicon{
+  height:24px;
+  margin-bottom:4px;
+}
+.home,.explore,.subscriptions,.originals,.music,.library{
+  font-family:Roboto,Arial;
+  font-size:10px; 
+}
